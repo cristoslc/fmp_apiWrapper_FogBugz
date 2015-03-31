@@ -58,6 +58,9 @@
 <node TEXT="uses httppost" ID="ID_1092106655" CREATED="1427760744544" MODIFIED="1427760751772"/>
 </node>
 </node>
+<node TEXT="FogBugz API version" ID="ID_1543983869" CREATED="1427770338917" MODIFIED="1427770346291">
+<node TEXT="8" OBJECT="java.lang.Long|8" ID="ID_1271077024" CREATED="1427770341351" MODIFIED="1427770342724"/>
+</node>
 <node TEXT="Custom Functions" ID="ID_782282523" CREATED="1427759610285" MODIFIED="1427760755364">
 <node TEXT="GetXMLNode()" ID="ID_251535107" CREATED="1427760755600" MODIFIED="1427760760933">
 <node TEXT="http://www.fmfunctions.com/functions_display_record.php?functionId=203" ID="ID_1578634463" CREATED="1427760761455" MODIFIED="1427760761455" LINK="http://www.fmfunctions.com/functions_display_record.php?functionId=203"/>
@@ -65,6 +68,7 @@
 <node TEXT="ExtractData()" ID="ID_1917329001" CREATED="1427760776872" MODIFIED="1427760779436">
 <node TEXT="http://www.briandunning.com/cf/1" ID="ID_1991239502" CREATED="1427760781716" MODIFIED="1427760781716" LINK="http://www.briandunning.com/cf/1"/>
 </node>
+<node TEXT="TrimMore()" ID="ID_1039350034" CREATED="1427771747518" MODIFIED="1427771749791"/>
 </node>
 </node>
 <node TEXT="Entities" POSITION="right" ID="ID_167398822" CREATED="1427761133669" MODIFIED="1427761158670">
@@ -103,9 +107,6 @@
 </node>
 <node TEXT="Sample data" POSITION="right" ID="ID_1582645212" CREATED="1427760283803" MODIFIED="1427760285425">
 <edge COLOR="#ffff00"/>
-<node TEXT="authentication" ID="ID_1036915155" CREATED="1427758926986" MODIFIED="1427760428809">
-<node TEXT="tu0re02jmd0ja3u963cmhirhqb04bk" ID="ID_623246053" CREATED="1427760440145" MODIFIED="1427760442772"/>
-</node>
 <node TEXT="project" ID="ID_813336411" CREATED="1427760285596" MODIFIED="1427760286857">
 <node TEXT="1" OBJECT="java.lang.Long|1" ID="ID_259857889" CREATED="1427762198053" MODIFIED="1427762198967">
 <node TEXT="ix" ID="ID_1760963284" CREATED="1427760287166" MODIFIED="1427760289561">
@@ -180,7 +181,7 @@
 <node TEXT="Scripts" POSITION="right" ID="ID_1960013908" CREATED="1427759140429" MODIFIED="1427759141766">
 <edge COLOR="#ff00ff"/>
 <node TEXT="Stitch" ID="ID_1214994646" CREATED="1427759141970" MODIFIED="1427759147173">
-<node TEXT="Submit new FogBugz Case ( title ; quoted message {; ixProject ; ixArea ; ixCategory ; ixPriority} ) -&gt; ixBug" ID="ID_1713445223" CREATED="1427761880387" MODIFIED="1427762036096">
+<node TEXT="Create New Bug ( title ; quoted message {; ixProject ; ixArea ; ixCategory ; ixPriority} ) -&gt; ixBug" ID="ID_1713445223" CREATED="1427761880387" MODIFIED="1427767929857">
 <node TEXT="sections" ID="ID_1131237217" CREATED="1427762583035" MODIFIED="1427762584831">
 <node TEXT="if ixProject is empty, set it to the inbox project" ID="ID_317740721" CREATED="1427762585234" MODIFIED="1427762594559"/>
 </node>
@@ -201,15 +202,6 @@
 </node>
 <node TEXT="Private" ID="ID_1798629759" CREATED="1427759151329" MODIFIED="1427759153638">
 <node TEXT="FogBugz API methods" ID="ID_410624541" CREATED="1427759153978" MODIFIED="1427759819743">
-<node TEXT="/logon ( email ; password ) -&gt; authToken" ID="ID_887620429" CREATED="1427759211847" MODIFIED="1427759828325"/>
-<node TEXT="/logoff" ID="ID_1701494104" CREATED="1427759407010" MODIFIED="1427759642680"/>
-<node TEXT="/new ( sTitle ; ixProject ; ixArea ; ixCategory ; ixPriority ; quo sEvent ) -&gt; ixBug" ID="ID_1941795463" CREATED="1427759161714" MODIFIED="1427762096008"/>
-<node TEXT="/listProjects -&gt; quo projectIds, quo projectNames" ID="ID_605601095" CREATED="1427759976804" MODIFIED="1427760265268"/>
-<node TEXT="/listAreas -&gt; quo areaIds, quo areaNames" ID="ID_1829216998" CREATED="1427760024578" MODIFIED="1427760257417"/>
-<node TEXT="/listCategories -&gt; quo categoryIds, quo categoryNames" ID="ID_1544847467" CREATED="1427760036560" MODIFIED="1427760097209"/>
-<node TEXT="/listPriorities -&gt; quo priorityIds, quo priorityNames" ID="ID_1770433260" CREATED="1427760043199" MODIFIED="1427760088679"/>
-</node>
-<node TEXT="URL management" ID="ID_1362295911" CREATED="1427760831343" MODIFIED="1427760838777">
 <node TEXT="Make API call ( isHttpPost ; apiCmdAndParameters ) -&gt; xmlResponse" ID="ID_1682264606" CREATED="1427760839885" MODIFIED="1427761530011">
 <node TEXT="sections" ID="ID_1230654684" CREATED="1427761292296" MODIFIED="1427761295044">
 <node TEXT="Set http/https" ID="ID_1393509368" CREATED="1427761295786" MODIFIED="1427761301026">
@@ -228,6 +220,13 @@
 </node>
 </node>
 </node>
+<node TEXT="/logon ( email ; password ) -&gt; authToken" ID="ID_887620429" CREATED="1427759211847" MODIFIED="1427759828325"/>
+<node TEXT="/logoff" ID="ID_1701494104" CREATED="1427759407010" MODIFIED="1427759642680"/>
+<node TEXT="/new ( sTitle ; ixProject ; ixArea ; ixCategory ; ixPriority ; quo sEvent ) -&gt; ixBug" ID="ID_1941795463" CREATED="1427759161714" MODIFIED="1427762096008"/>
+<node TEXT="/listProjects -&gt; quo projectIds, quo projectNames" ID="ID_605601095" CREATED="1427759976804" MODIFIED="1427760265268"/>
+<node TEXT="/listAreas -&gt; quo areaIds, quo areaNames" ID="ID_1829216998" CREATED="1427760024578" MODIFIED="1427760257417"/>
+<node TEXT="/listCategories -&gt; quo categoryIds, quo categoryNames" ID="ID_1544847467" CREATED="1427760036560" MODIFIED="1427760097209"/>
+<node TEXT="/listPriorities -&gt; quo priorityIds, quo priorityNames" ID="ID_1770433260" CREATED="1427760043199" MODIFIED="1427760088679"/>
 </node>
 <node TEXT="Preflight" ID="ID_1568514689" CREATED="1427761224000" MODIFIED="1427761225181">
 <node TEXT="Verify FogBugz API meets min version-&gt; $$isFogBugzApiMeetsMinVersion" ID="ID_594851587" CREATED="1427759170226" MODIFIED="1427761853947"/>
@@ -236,6 +235,7 @@
 <node TEXT="Check response for errorcodes ( xmlResponse ) -&gt; errCode, errMessage" ID="ID_390795144" CREATED="1427759518703" MODIFIED="1427761858343"/>
 <node TEXT="Remove CDATA tags ( xmlResponse ) -&gt; xmlCleanedResponse" ID="ID_405582341" CREATED="1427761766845" MODIFIED="1427761871072"/>
 </node>
+<node TEXT="Get Inbox Project &gt; ixProject" ID="ID_1294139813" CREATED="1427767952731" MODIFIED="1427767974795"/>
 </node>
 </node>
 </node>

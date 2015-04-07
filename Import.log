@@ -11,3 +11,57 @@
 2015-04-07 10:25:59.156 -0400	FogBugz API Integration.fmp12	0	Import completed
 2015-04-07 10:26:02.139 -0400	FogBugz API Integration.fmp12	0	Import operations committed
 2015-04-07 10:26:02.140 -0400	FogBugz API Integration.fmp12	0	==================================================================
+2015-04-07 13:08:44.036 -0400	FogBugz API Integration.fmp12	0	Import of script steps from clipboard started
+2015-04-07 13:08:44.089 -0400	FBAPI: New Case ( title ; quoted message {; ixProject ; ixArea ; ixCategory ; ixPriority} ) > ixBug	0	script steps imported : 1
+2015-04-07 13:08:44.090 -0400	FogBugz API Integration.fmp12	0	Import completed
+2015-04-07 14:20:53.310 -0400	FogBugz API Integration.fmp12	0	Import of script steps from clipboard started
+2015-04-07 14:20:53.319 -0400	FBAPI: New Case ( title; quote message {ixProject; ixArea; ixCategory; ixPriority; sTags} ) > ixBug	0	script steps imported : 1
+2015-04-07 14:20:53.320 -0400	FogBugz API Integration.fmp12	0	Import completed
+2015-04-07 14:21:13.349 -0400	FogBugz API Integration.fmp12	0	Import of script steps from clipboard started
+2015-04-07 14:21:13.350 -0400	FBAPI: New Case ( title; quote message {ixProject; ixArea; ixCategory; ixPriority; sTags} ) > ixBug	0	script steps imported : 1
+2015-04-07 14:21:13.350 -0400	FogBugz API Integration.fmp12	0	Import completed
+2015-04-07 14:21:14.005 -0400	FogBugz API Integration.fmp12	0	Import of script steps from clipboard started
+2015-04-07 14:21:14.005 -0400	FBAPI: New Case ( title; quote message {ixProject; ixArea; ixCategory; ixPriority; sTags} ) > ixBug	0	script steps imported : 1
+2015-04-07 14:21:14.006 -0400	FogBugz API Integration.fmp12	0	Import completed
+2015-04-07 14:21:16.388 -0400	FogBugz API Integration.fmp12	0	Import of script steps from clipboard started
+2015-04-07 14:21:16.389 -0400	FBAPI: New Case ( title; quote message {ixProject; ixArea; ixCategory; ixPriority; sTags} ) > ixBug	0	script steps imported : 1
+2015-04-07 14:21:16.389 -0400	FogBugz API Integration.fmp12	0	Import completed
+2015-04-07 14:22:58.739 -0400	FogBugz API Integration.fmp12	0	Import of script steps from clipboard started
+2015-04-07 14:22:58.739 -0400	FBAPI: Set authentication token > authToken	0	script steps imported : 1
+2015-04-07 14:22:58.740 -0400	FogBugz API Integration.fmp12	0	Import completed
+2015-04-07 14:22:59.596 -0400	FogBugz API Integration.fmp12	0	Import of script steps from clipboard started
+2015-04-07 14:22:59.597 -0400	FBAPI: Set authentication token > authToken	0	script steps imported : 1
+2015-04-07 14:22:59.597 -0400	FogBugz API Integration.fmp12	0	Import completed
+2015-04-07 14:25:03.284 -0400	FogBugz API Integration.fmp12	0	Import of script steps from clipboard started
+2015-04-07 14:25:03.286 -0400	~FBAPI: Get Inbox Project > ixProject	0	script steps imported : 1
+2015-04-07 14:25:03.286 -0400	FogBugz API Integration.fmp12	0	Import completed
+2015-04-07 14:26:01.336 -0400	FogBugz API Integration.fmp12	0	Import of script steps from clipboard started
+2015-04-07 14:26:01.427 -0400	~FBAPI: New Case ( title ; quoted message {ixProject; ixArea; ixCategory; ixPriority; sTags) > ixBug	0	script steps imported : 8
+2015-04-07 14:26:01.454 -0400	FogBugz API Integration.fmp12	0	Import completed
+2015-04-07 14:27:04.558 -0400	FogBugz API Integration.fmp12	0	Import of script steps from clipboard started
+2015-04-07 14:27:04.558 -0400	~FBAPI: New Case ( title ; quoted message {ixProject; ixArea; ixCategory; ixPriority; sTags) > ixBug	0	script steps imported : 1
+2015-04-07 14:27:04.559 -0400	FogBugz API Integration.fmp12	0	Import completed
+2015-04-07 17:03:14.640 -0400	FogBugz API Integration.fmp12	0	Import of script steps from clipboard started
+2015-04-07 17:03:14.642 -0400	~FBAPI: Make API call ( isHttpPost ; apiCmdAndParams ) > xmlCleanedResponse	0	script steps imported : 1
+2015-04-07 17:03:14.642 -0400	FogBugz API Integration.fmp12	0	Import completed
+2015-04-07 17:05:48.869 -0400	FogBugz API Integration.fmp12	0	Import of script steps from clipboard started
+2015-04-07 17:05:48.871 -0400	~FBAPI: Make API call ( isHttpPost ; apiCmdAndParams ) > xmlCleanedResponse	0	script steps imported : 1
+2015-04-07 17:05:48.871 -0400	FogBugz API Integration.fmp12	0	Import completed
+2015-04-07 17:05:50.205 -0400	FogBugz API Integration.fmp12	0	Import of script steps from clipboard started
+2015-04-07 17:05:50.205 -0400	~FBAPI: Make API call ( isHttpPost ; apiCmdAndParams ) > xmlCleanedResponse	0	script steps imported : 1
+2015-04-07 17:05:50.205 -0400	FogBugz API Integration.fmp12	0	Import completed
+2015-04-07 17:09:37.363 -0400	FogBugz API Integration.fmp12	0	Import of script steps from clipboard started
+2015-04-07 17:09:37.365 -0400	~FBAPI: / > apiAddress, apiVersion, apiMinVersion	0	script steps imported : 1
+2015-04-07 17:09:37.365 -0400	FogBugz API Integration.fmp12	0	Import completed
+2015-04-07 17:09:38.989 -0400	FogBugz API Integration.fmp12	0	Import of script steps from clipboard started
+2015-04-07 17:09:38.990 -0400	~FBAPI: / > apiAddress, apiVersion, apiMinVersion	0	script steps imported : 1
+2015-04-07 17:09:38.990 -0400	FogBugz API Integration.fmp12	0	Import completed
+2015-04-07 17:17:12.177 -0400	FogBugz API Integration.fmp12	0	Import of script steps from clipboard started
+2015-04-07 17:17:12.211 -0400	~FBAPI: /logon ( email ; password ) > authToken	0	script steps imported : 1
+2015-04-07 17:17:12.212 -0400	FogBugz API Integration.fmp12	0	Import completed
+2015-04-07 17:18:06.118 -0400	FogBugz API Integration.fmp12	0	Import of script steps from clipboard started
+2015-04-07 17:18:06.120 -0400	~FBAPI: /new ( sTitle ; ixProject ; quo sEvent {; ixArea ; ixCategory ; ixPriority}) > ixBug	0	script steps imported : 1
+2015-04-07 17:18:06.121 -0400	FogBugz API Integration.fmp12	0	Import completed
+2015-04-07 17:24:32.541 -0400	FogBugz API Integration.fmp12	0	Import of script steps from clipboard started
+2015-04-07 17:24:32.542 -0400	~FBAPI: Refresh Projects	0	script steps imported : 1
+2015-04-07 17:24:32.543 -0400	FogBugz API Integration.fmp12	0	Import completed

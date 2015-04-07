@@ -1,0 +1,13 @@
+﻿Timestamp	Filename	Error	Message
+2015-04-07 10:21:17.993 -0400	FogBugz API Integration.fmp12	0	Import operations started
+2015-04-07 10:21:22.100 -0400	FogBugz API Integration.fmp12	0	Import operations canceled
+2015-04-07 10:21:22.101 -0400	FogBugz API Integration.fmp12	0	==================================================================
+2015-04-07 10:25:17.312 -0400	FogBugz API Integration.fmp12	0	Import operations started
+2015-04-07 10:25:38.975 -0400	FogBugz API Integration.fmp12	0	Import of custom functions from file “FM-Parameters.fmp12” started
+2015-04-07 10:25:39.033 -0400	FogBugz API Integration.fmp12	0	custom functions imported : 7
+2015-04-07 10:25:39.033 -0400	FogBugz API Integration.fmp12	0	Import completed
+2015-04-07 10:25:59.150 -0400	FogBugz API Integration.fmp12	0	Import of custom functions from file “FM-Parameters.fmp12” started
+2015-04-07 10:25:59.156 -0400	FogBugz API Integration.fmp12	0	custom functions imported : 2
+2015-04-07 10:25:59.156 -0400	FogBugz API Integration.fmp12	0	Import completed
+2015-04-07 10:26:02.139 -0400	FogBugz API Integration.fmp12	0	Import operations committed
+2015-04-07 10:26:02.140 -0400	FogBugz API Integration.fmp12	0	==================================================================

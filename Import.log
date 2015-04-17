@@ -65,3 +65,9 @@
 2015-04-07 17:24:32.541 -0400	FogBugz API Integration.fmp12	0	Import of script steps from clipboard started
 2015-04-07 17:24:32.542 -0400	~FBAPI: Refresh Projects	0	script steps imported : 1
 2015-04-07 17:24:32.543 -0400	FogBugz API Integration.fmp12	0	Import completed
+2015-04-17 13:48:32.326 -0400	FogBugz API Integration.fmp12	0	Import of script steps from clipboard started
+2015-04-17 13:48:32.361 -0400	~FBAPI: Check response for error codes ( xmlResponse ) > errCode, errMessage	0	script steps imported : 1
+2015-04-17 13:48:32.362 -0400	FogBugz API Integration.fmp12	0	Import completed
+2015-04-17 13:51:13.490 -0400	FogBugz API Integration.fmp12	0	Import of script steps from clipboard started
+2015-04-17 13:51:13.491 -0400	~FBAPI: Check response for error codes ( xmlResponse ) > errCode, errMessage	0	script steps imported : 1
+2015-04-17 13:51:13.492 -0400	FogBugz API Integration.fmp12	0	Import completed

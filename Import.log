@@ -71,3 +71,129 @@
 2015-04-17 13:51:13.490 -0400	FogBugz API Integration.fmp12	0	Import of script steps from clipboard started
 2015-04-17 13:51:13.491 -0400	~FBAPI: Check response for error codes ( xmlResponse ) > errCode, errMessage	0	script steps imported : 1
 2015-04-17 13:51:13.492 -0400	FogBugz API Integration.fmp12	0	Import completed
+2015-05-22 10:17:49.600 -0400	FogBugz API Integration.fmp12	0	Import operations started
+2015-05-22 10:17:49.634 -0400	FogBugz API Integration.fmp12	0	Import of tables from clipboard started
+2015-05-22 10:17:49.667 -0400	zz_log	0	fields imported : 2
+2015-05-22 10:17:49.667 -0400	FogBugz API Integration.fmp12	0	tables imported : 1
+2015-05-22 10:17:49.667 -0400	FogBugz API Integration.fmp12	0	Import completed
+2015-05-22 10:17:54.462 -0400	FogBugz API Integration.fmp12	0	Import operations committed
+2015-05-22 10:17:54.462 -0400	FogBugz API Integration.fmp12	0	==================================================================
+2015-05-22 10:18:44.032 -0400	FogBugz API Integration.fmp12	0	Import of scripts from file “fmp_log.fmp12” started
+2015-05-22 10:18:44.049 -0400	fmp_log	0	script steps imported : 0
+2015-05-22 10:18:44.050 -0400	-	0	script steps imported : 0
+2015-05-22 10:18:44.056 -0400	log: READ ME	0	script steps imported : 68
+2015-05-22 10:18:44.060 -0400	log: Version 1.0.0.a.1.0.0	0	script steps imported : 38
+2015-05-22 10:18:44.061 -0400	-	0	script steps imported : 0
+2015-05-22 10:18:44.062 -0400	log; Examples & Templates	0	script steps imported : 0
+2015-05-22 10:18:44.063 -0400	--	0	script steps imported : 0
+2015-05-22 10:18:44.064 -0400	log: Config	0	script steps imported : 0
+2015-05-22 10:18:44.065 -0400	Configure Severity Level to log > severityLevel	0	script steps imported : 5
+2015-05-22 10:18:44.066 -0400	--	0	script steps imported : 0
+2015-05-22 10:18:44.067 -0400	log: Public API	0	script steps imported : 0
+2015-05-22 10:18:44.071 -0400	Get Level ( severity=Emergency|Alert|Critical|Error|Warning|Notice|Info|Debug ) > severityLevel	0	script steps imported : 19
+2015-05-22 10:18:44.078 -0400	log: Write Entry ( shortMsg ; severityLevel {; fullMsg; utcMilliseconds ; host ; #moreFields})	0	script steps imported : 1
+2015-05-22 10:18:44.079 -0400	--	0	script steps imported : 0
+2015-05-22 10:18:44.080 -0400	log: Tests	0	script steps imported : 0
+2015-05-22 10:18:44.084 -0400	Write "Hello World" to log	0	script steps imported : 8
+2015-05-22 10:18:44.084 -0400	Get Severity Levels	0	script steps imported : 0
+2015-05-22 10:18:44.087 -0400	Get Severity Level for "Warning" - standard param	0	script steps imported : 4
+2015-05-22 10:18:44.089 -0400	Get Severity Level for "Warning" - #Let notation	0	script steps imported : 5
+2015-05-22 10:18:44.090 -0400	--	0	script steps imported : 0
+2015-05-22 10:18:44.091 -0400	--	0	script steps imported : 0
+2015-05-22 10:18:44.092 -0400	log: Private	0	script steps imported : 0
+2015-05-22 10:18:44.099 -0400	~log: Write Entry ( shortMsg ; severityLevel {; fullMsg ; utcMilliseconds ; host ; #moreFields})::32::Perform Script	104	Script “FM-JSON ( letNotation )” missing.
+2015-05-22 10:18:44.102 -0400	~log: Write Entry ( shortMsg ; severityLevel {; fullMsg ; utcMilliseconds ; host ; #moreFields})	0	script steps imported : 48
+2015-05-22 10:18:44.103 -0400	~log: Config	0	script steps imported : 0
+2015-05-22 10:18:44.105 -0400	~Get GELF version > gelfVersion	0	script steps imported : 4
+2015-05-22 10:18:44.106 -0400	--	0	script steps imported : 0
+2015-05-22 10:18:44.107 -0400	~log: Utility	0	script steps imported : 0
+2015-05-22 10:18:44.109 -0400	~log: Get UTC UNIX timestamp with decimal milliseconds ( {utcMilliseconds} ) > unixTimestamp	0	script steps imported : 7
+2015-05-22 10:18:44.110 -0400	--	0	script steps imported : 0
+2015-05-22 10:18:44.111 -0400	--	0	script steps imported : 0
+2015-05-22 10:18:44.112 -0400	--	0	script steps imported : 0
+2015-05-22 10:18:44.112 -0400	FogBugz API Integration.fmp12	0	scripts imported : 22
+2015-05-22 10:18:44.113 -0400	FogBugz API Integration.fmp12	0	Import completed
+2015-05-22 10:19:09.840 -0400	FogBugz API Integration.fmp12	0	Import of scripts from file “fmp_log.fmp12” started
+2015-05-22 10:19:09.883 -0400	fmp_log	0	script steps imported : 0
+2015-05-22 10:19:09.884 -0400	-	0	script steps imported : 0
+2015-05-22 10:19:09.888 -0400	log: READ ME	0	script steps imported : 68
+2015-05-22 10:19:09.893 -0400	log: Version 1.0.0.a.1.0.0	0	script steps imported : 38
+2015-05-22 10:19:09.894 -0400	-	0	script steps imported : 0
+2015-05-22 10:19:09.895 -0400	log; Examples & Templates	0	script steps imported : 0
+2015-05-22 10:19:09.896 -0400	--	0	script steps imported : 0
+2015-05-22 10:19:09.897 -0400	log: Config	0	script steps imported : 0
+2015-05-22 10:19:09.898 -0400	Configure Severity Level to log > severityLevel	0	script steps imported : 5
+2015-05-22 10:19:09.899 -0400	--	0	script steps imported : 0
+2015-05-22 10:19:09.900 -0400	log: Public API	0	script steps imported : 0
+2015-05-22 10:19:09.904 -0400	Get Level ( severity=Emergency|Alert|Critical|Error|Warning|Notice|Info|Debug ) > severityLevel	0	script steps imported : 19
+2015-05-22 10:19:09.912 -0400	log: Write Entry ( shortMsg ; severityLevel {; fullMsg; utcMilliseconds ; host ; #moreFields})	0	script steps imported : 1
+2015-05-22 10:19:09.913 -0400	--	0	script steps imported : 0
+2015-05-22 10:19:09.914 -0400	log: Tests	0	script steps imported : 0
+2015-05-22 10:19:09.918 -0400	Write "Hello World" to log	0	script steps imported : 8
+2015-05-22 10:19:09.919 -0400	Get Severity Levels	0	script steps imported : 0
+2015-05-22 10:19:09.922 -0400	Get Severity Level for "Warning" - standard param	0	script steps imported : 4
+2015-05-22 10:19:09.925 -0400	Get Severity Level for "Warning" - #Let notation	0	script steps imported : 5
+2015-05-22 10:19:09.926 -0400	--	0	script steps imported : 0
+2015-05-22 10:19:09.927 -0400	--	0	script steps imported : 0
+2015-05-22 10:19:09.928 -0400	log: Private	0	script steps imported : 0
+2015-05-22 10:19:09.939 -0400	~log: Write Entry ( shortMsg ; severityLevel {; fullMsg ; utcMilliseconds ; host ; #moreFields})	0	script steps imported : 48
+2015-05-22 10:19:09.940 -0400	~log: Config	0	script steps imported : 0
+2015-05-22 10:19:09.942 -0400	~Get GELF version > gelfVersion	0	script steps imported : 4
+2015-05-22 10:19:09.943 -0400	--	0	script steps imported : 0
+2015-05-22 10:19:09.944 -0400	~log: Utility	0	script steps imported : 0
+2015-05-22 10:19:09.946 -0400	~log: Get UTC UNIX timestamp with decimal milliseconds ( {utcMilliseconds} ) > unixTimestamp	0	script steps imported : 7
+2015-05-22 10:19:09.947 -0400	--	0	script steps imported : 0
+2015-05-22 10:19:09.948 -0400	--	0	script steps imported : 0
+2015-05-22 10:19:09.949 -0400	--	0	script steps imported : 0
+2015-05-22 10:19:09.950 -0400	JSON	0	script steps imported : 0
+2015-05-22 10:19:09.951 -0400	-	0	script steps imported : 0
+2015-05-22 10:19:09.955 -0400	JSON: READ ME	0	script steps imported : 68
+2015-05-22 10:19:09.960 -0400	JSON: Version 1.0.4	0	script steps imported : 38
+2015-05-22 10:19:09.961 -0400	-	0	script steps imported : 0
+2015-05-22 10:19:09.962 -0400	JSON: Config	0	script steps imported : 0
+2015-05-22 10:19:09.964 -0400	~JSON-FM Custom Error { message }	0	script steps imported : 16
+2015-05-22 10:19:09.966 -0400	~FM-JSON Custom Error { message }	0	script steps imported : 13
+2015-05-22 10:19:09.967 -0400	--	0	script steps imported : 0
+2015-05-22 10:19:09.968 -0400	JSON: Public	0	script steps imported : 0
+2015-05-22 10:19:09.973 -0400	JSON-FM ( jsonEncodedText )	0	script steps imported : 40
+2015-05-22 10:19:09.981 -0400	FM-JSON ( letNotation )	0	script steps imported : 37
+2015-05-22 10:19:09.982 -0400	--	0	script steps imported : 0
+2015-05-22 10:19:09.983 -0400	JSON: Private	0	script steps imported : 0
+2015-05-22 10:19:09.984 -0400	JSON-FM	0	script steps imported : 0
+2015-05-22 10:19:09.995 -0400	~JSON-FM Value	0	script steps imported : 31
+2015-05-22 10:19:09.998 -0400	~JSON-FM White	0	script steps imported : 18
+2015-05-22 10:19:10.020 -0400	~JSON-FM Object	0	script steps imported : 55
+2015-05-22 10:19:10.035 -0400	~JSON-FM Array	0	script steps imported : 43
+2015-05-22 10:19:10.049 -0400	~JSON-FM String	0	script steps imported : 73
+2015-05-22 10:19:10.063 -0400	~JSON-FM Number	0	script steps imported : 59
+2015-05-22 10:19:10.083 -0400	~JSON-FM Word	0	script steps imported : 39
+2015-05-22 10:19:10.088 -0400	~JSON-FM Next { character }	0	script steps imported : 25
+2015-05-22 10:19:10.092 -0400	~JSON-FM Error { message }	0	script steps imported : 28
+2015-05-22 10:19:10.094 -0400	--	0	script steps imported : 0
+2015-05-22 10:19:10.094 -0400	FM-JSON	0	script steps imported : 0
+2015-05-22 10:19:10.112 -0400	~FM-JSON { value }	0	script steps imported : 73
+2015-05-22 10:19:10.122 -0400	~FM-JSON { object }	0	script steps imported : 43
+2015-05-22 10:19:10.128 -0400	~FM-JSON ( array )	0	script steps imported : 33
+2015-05-22 10:19:10.134 -0400	~FM-JSON { string }	0	script steps imported : 34
+2015-05-22 10:19:10.140 -0400	~FM-JSON Error { message }	0	script steps imported : 25
+2015-05-22 10:19:10.141 -0400	--	0	script steps imported : 0
+2015-05-22 10:19:10.142 -0400	--	0	script steps imported : 0
+2015-05-22 10:19:10.143 -0400	--	0	script steps imported : 0
+2015-05-22 10:19:10.144 -0400	FogBugz API Integration.fmp12	0	scripts imported : 50
+2015-05-22 10:19:10.144 -0400	FogBugz API Integration.fmp12	0	Import completed
+2015-05-22 11:26:14.440 -0400	FogBugz API Integration.fmp12	0	Import of script steps from clipboard started
+2015-05-22 11:26:14.500 -0400	~FBAPI: Refresh Categories	3703	Unknown Error: <unknown>.
+2015-05-22 11:26:14.500 -0400	~FBAPI: Refresh Categories	0	script steps imported : 5
+2015-05-22 11:26:14.501 -0400	FogBugz API Integration.fmp12	0	Import completed
+2015-05-22 11:28:12.198 -0400	FogBugz API Integration.fmp12	0	Import of script steps from clipboard started
+2015-05-22 11:28:12.199 -0400	~FBAPI: Refresh Areas	3703	Unknown Error: <unknown>.
+2015-05-22 11:28:12.200 -0400	~FBAPI: Refresh Areas	0	script steps imported : 5
+2015-05-22 11:28:12.200 -0400	FogBugz API Integration.fmp12	0	Import completed
+2015-05-22 11:29:24.243 -0400	FogBugz API Integration.fmp12	0	Import of script steps from clipboard started
+2015-05-22 11:29:24.244 -0400	~FBAPI: Refresh Priorities	3703	Unknown Error: <unknown>.
+2015-05-22 11:29:24.245 -0400	~FBAPI: Refresh Priorities	0	script steps imported : 5
+2015-05-22 11:29:24.245 -0400	FogBugz API Integration.fmp12	0	Import completed
+2015-05-22 11:29:42.674 -0400	FogBugz API Integration.fmp12	0	Import of script steps from clipboard started
+2015-05-22 11:29:42.676 -0400	~FBAPI: Refresh Projects	3703	Unknown Error: <unknown>.
+2015-05-22 11:29:42.676 -0400	~FBAPI: Refresh Projects	0	script steps imported : 5
+2015-05-22 11:29:42.677 -0400	FogBugz API Integration.fmp12	0	Import completed
